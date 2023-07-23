@@ -1,0 +1,16 @@
+.nav-bar {
+    display: flex;
+    background-color: #fff;
+    color: white;
+    height: 7vh;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+    margin: 0;
+}
+
+.nav-bar-logo {
+    padding-left: 1%;
+    object-fit: contain;
+}
