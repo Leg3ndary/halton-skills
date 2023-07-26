@@ -1,3 +1,4 @@
+import React from "react";
 import "./Home.css";
 import banner from "../assets/banner.jpg";
 import logo from "../assets/halton_skills_logo_full.png";
