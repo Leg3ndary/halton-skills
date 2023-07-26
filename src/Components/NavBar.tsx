@@ -5,7 +5,9 @@ export default function NavBar() {
     return (
         <div className="navbar">
             <div className="navbar_logo">
-                <img src={logo} alt="Halton Skills Logo"></img>
+                <a href="/">
+                    <img src={logo} alt="Halton Skills Logo"></img>
+                </a>
             </div>
         </div>
     );
