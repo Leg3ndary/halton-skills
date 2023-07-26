@@ -1,0 +1,15 @@
+.home h1 {
+
+}
+
+.home_banner {
+    position: relative;
+    background-image: url(../assets/banner.jpg);
+    background-size: cover;
+}
+
+.logo_overlay {
+    position: relative;
+    display: flex;
+    margin: auto;
+}
