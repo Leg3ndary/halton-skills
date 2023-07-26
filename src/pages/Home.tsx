@@ -7,10 +7,15 @@ export default function Home() {
         <div className="home">
             <div className="home_banner">
                 <img className="banner_image" src={banner} alt="Banner" style={{visibility: "hidden"}}></img>
-                <img className="logo_overlay" src={logo} alt="Logo Overlay"></img>
             </div>
-            <h1>Halton Skills Competition</h1>
-
+            <div className="content">
+                <div className="left">
+                    <img src={logo} alt="Halton Skills Logo" className="logo"></img>
+                </div>
+                <div className="right">
+                    <h1>Halton Skills Competition helps students by showcasing their skills</h1>
+                </div>
+            </div>
         </div>
     );
 }

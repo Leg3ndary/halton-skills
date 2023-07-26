@@ -1,15 +1,28 @@
-.home h1 {
-
-}
-
 .home_banner {
     position: relative;
     background-image: url(../assets/banner.jpg);
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.logo_overlay {
-    position: relative;
+.content {
     display: flex;
-    margin: auto;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.logo {
+    width: 70%;
+    height: auto;
+}
+
+.left {
+    
+}
+
+.right {
+    
 }
