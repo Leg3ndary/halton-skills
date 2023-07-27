@@ -8,18 +8,20 @@ export default function NavBar() {
         <div className="navbar">
             <div className="navbar_logo">
                 <Link to="/">
-                    <img src={logo} alt="Halton Skills Logo"></img>
+                    <img className="logo" src={logo} alt="Halton Skills Logo"></img>
+                    <h1>Halton Skills</h1>
                 </Link>
             </div>
-            <div className="links">
-                <button className="navbar_button">
+            <div className="navbar_links">
+                <ul className="navbar_links">
+                    <Link to="/">Home</Link>
+                    <Link to="/elementary-competitions">Elementary</Link>
+                    <Link to="/secondary-competitions">Secondary</Link>
+                    <Link to="/scopes">Scopes</Link>
+                    <Link to="/sponsors-donate">Sponsors/Donate</Link>
                     <Link to="/contact">Contact</Link>
-                </button>
-                <Link to="/news">News</Link>
-                <Link to="/elementary-competitions">Elementary</Link>
-                <Link to="/secondary-competitions">Secondary</Link>
-                <Link to="/scopes">Scopes</Link>
-                <Link to="/sponsors-donate">Sponsors/Donate</Link>
+                    <Link to="/news">News</Link>
+                </ul>
             </div>
         </div>
     );
